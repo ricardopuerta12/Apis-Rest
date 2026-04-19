@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-decor"></div>
+    
+    <main class="dashboard">
+        <header class="header">
+            <div class="branding">
+                <h1>Global Network</h1>
+                <p>Gestión de usuarios y conectividad API</p>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="label">Total Usuarios</span>
+                    <span id="user-count" class="value">0</span>
+                </div>
+            </div>
+        </header>
+
+        <section id="user-grid" class="user-grid">
+            <div class="loader">Cargando datos maestros...</div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
